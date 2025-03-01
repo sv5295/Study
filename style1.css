@@ -108,7 +108,7 @@
       /* Landing Section Styles */
 
 #hero-section {
-    min-height: 50vh;
+    min-height: 30vh;
     max-width: 100vw;
     background-color: paleturquoise;
     display: flex;
@@ -236,11 +236,11 @@
   /* About Us Section styles */
 
 #about-us {
-    min-height: 100vh;
+    min-height: 50vh;
     max-width: 100vw;
     background-color: lightpink;
-    min-height: 100vh;
-     }
+    margin:auto;
+      }
   
   #about-us p {
     color: white;
@@ -250,7 +250,7 @@
     text-align: left;
     width: 80%;
     margin: auto;
-    min-height: 100vh;
+    min-height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -289,9 +289,11 @@
 #our-products {
     min-height: 100vh;
     max-width: 100vw;
-    background-color: #fc8a05;
+    background-color: #c2ea6a;
     margin: auto;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   
   .products-grid-wrapper {
@@ -355,7 +357,7 @@
     height: 100vh;
     min-height: 100vh;
     max-width: 100vw;
-    background-color: #000000;
+    background-color: #e0ace4;
     color: white;
   }
   
@@ -457,3 +459,44 @@
       display: none;
     }
   }
+
+/* To-Do List */
+
+.container {
+  max-width: 600px;
+   margin: 0 auto;
+   min-width: 200px;
+  background-color:rgb(214, 242, 168);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-content: top;
+  }
+
+h7 {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-style: bold;
+}
+ 
+.container ul {
+  list-style: none;
+  padding: 5px;
+  color: rgb(72, 71, 71);
+  font-style: normal;
+}
+
+.container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  font-size: 12 px;
+}
+

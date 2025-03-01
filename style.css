@@ -66,10 +66,11 @@ p1{
       color: gray;
       font-size: 1rem;
       text-align: center;
-      margin-left: 240px;
+      margin-left: 250px;
       margin-top: 0;
       padding-left: 10px;
-    
+      padding-right: 10px;
+      background-color:lavender;
                     }
 
 p2{
@@ -79,8 +80,9 @@ p2{
       text-align: center;
       margin-top: 0;
       padding-left: 10px;
-      margin-left:240px
-    
+      padding-right: 10px;
+      margin-left:230px;
+      background-color:lavender;
                                     }
 
 p3{
@@ -89,24 +91,25 @@ p3{
                                       font-size: 1rem;
                                       text-align: center;
                                       margin-top: 0;
-                                      margin-left: 500px;
+                                      margin-left: 505px;
                                       padding-left: 20px;
                                       padding-right: 15px;
                                       letter-spacing: 3px;
-                                      background-color:lavender;
-                                                                                                          }
+                                      font-style: italic;
+                                        }
 
 p4{
 
     color: gray;
     font-size: 1rem;
     text-align: center;
-    margin-left: 110px;
+    margin-left: 130px;
     margin-top: 0;
     padding-left: 10x;
     padding-right: 15px;
     letter-spacing: 3px;
-    background-color:lavender;
+    min-width: 90vw;
+    font-style: italic;
     }
 
 /*For button*/
@@ -247,4 +250,3 @@ p4{
 
 
 #page2{background-color: bisque;}
-
